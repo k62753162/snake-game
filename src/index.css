@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background-dark: #050505;
+  --color-surface-dark: #111114;
+  --color-border-dark: #1a1a1e;
+  --color-neon-cyan: #22d3ee;
+  --color-neon-magenta: #d946ef;
+}
+
+@utility neon-border {
+  border: 1px solid rgba(34, 211, 238, 0.2);
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.1);
+}
+
+@utility neon-text {
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.6);
+}
+
+@utility music-gradient {
+  background: linear-gradient(180deg, rgba(16, 16, 18, 1) 0%, rgba(10, 10, 12, 1) 100%);
+}
+
+@utility active-track {
+  background: rgba(34, 211, 238, 0.1);
+  border-left: 2px solid #22d3ee;
+}
